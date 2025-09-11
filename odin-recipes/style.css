@@ -1,0 +1,37 @@
+body{
+    background-color: lightyellow;
+    margin: 0;
+    height: 100vh;                 /* full screen height */
+}
+header {
+  position: absolute;      /* take header out of normal flow */
+  top: 50%;                /* move to 50% from top */
+  left: 50%;               /* move to 50% from left */
+  transform: translate(-50%, -50%);  /* shift back by half its own width/height */
+  text-align: center;      /* center text inside */
+}
+.recipe-links{
+    margin-bottom: 10px;
+    background-color: rgb(210,140,110);
+    color:black;
+    padding: 10px;
+    font-family:'Times New Roman', Times, serif;
+    padding: 10px 20px;         
+    border-radius: 10px;          
+    display: inline-block; 
+    text-align: center;
+    width: fit-content; 
+    margin: 10px auto;
+}
+
+.link-block a {
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+  display: block;
+}
+
+.recipe-links a:hover {
+  color: darkred;
+  text-decoration: underline;
+}

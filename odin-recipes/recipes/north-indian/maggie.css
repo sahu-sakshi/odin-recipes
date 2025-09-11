@@ -1,0 +1,39 @@
+body{
+    background-color: lightyellow;
+    margin: 0;
+    height: 100vh;                 /* full screen height */
+}
+header {
+  position: absolute;      /* take header out of normal flow */
+  top: 50%;                /* move to 50% from top */
+  left: 50%;               /* move to 50% from left */
+  transform: translate(-50%, -50%);  /* shift back by half its own width/height */
+  text-align: center;      /* center text inside */
+}
+.headings{
+    margin-bottom: 10px;
+    background-color: rgb(210,140,110);
+    color:black;
+    padding: 10px;
+    font-family:'Times New Roman', Times, serif;
+    padding: 10px 20px;         
+    border-radius: 10px;          
+    display:block; 
+    text-align: center;
+    text-align: center;
+    width: fit-content; 
+    margin: 10px auto;
+}
+.headings a:hover {
+  color: darkred;
+  text-decoration: underline;
+}
+.description {
+  width: 60%;              /* control width (optional, can adjust %) */
+  margin: 0 auto;           /* center the whole block */
+  background-color: #fff;   /* optional: light background for readability */
+  padding: 15px;
+  border-radius: 8px;
+  text-align: left;         /* keep text left-aligned inside */
+  line-height: 1.6;         /* better readability */
+}
